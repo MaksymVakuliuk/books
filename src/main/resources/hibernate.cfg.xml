@@ -22,5 +22,8 @@
         <property name = "show_sql">true</property>
         <property name = "hibernate.hbm2ddl.auto">create-drop</property>
 
+        <mapping class = "com.dev.books.model.Book"/>
+        <mapping class = "com.dev.books.model.Author"/>
+        <mapping class = "com.dev.books.model.Genre"/>
     </session-factory>
 </hibernate-configuration>
